@@ -13,6 +13,10 @@ app.get("/about", function(req, res){
   res.send("<h1>I am your daddy</h1>");
 });
 
+app.get("/hobbies", function(req, res){
+  res.send("I like guitar");
+});
+
 app.listen(3000, function(){
   console.log("server started on port 3000");
 });
